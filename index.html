@@ -1,0 +1,1248 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080b14" />
+
+  <meta
+    name="description"
+    content="Abderrahmane Guezei — Full-Stack Developer building modern web applications, scalable APIs and desktop software."
+  />
+  <meta name="author" content="Abderrahmane Guezei" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abderrahmane Guezei | Full-Stack Developer" />
+  <meta
+    property="og:description"
+    content="Building modern web applications, backend systems and practical digital solutions."
+  />
+
+  <title>Abderrahmane Guezei | Full-Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- BACKGROUND EFFECTS -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="ambient-grid"></div>
+    <div class="ambient-glow glow-one"></div>
+    <div class="ambient-glow glow-two"></div>
+    <div class="ambient-glow glow-three"></div>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <a class="brand" href="#home" aria-label="Abderrahmane home">
+      <span class="brand-mark">AG</span>
+      <span>ABDO<span class="brand-dot">.</span>DEV</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#journey">Journey</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+
+      <div class="header-clock">
+        <span class="clock-pulse"></span>
+        <span id="clockTime">00:00:00</span>
+        <span id="clockDate">-- ---</span>
+      </div>
+
+      <button
+        class="icon-button"
+        id="themeToggle"
+        type="button"
+        aria-label="Switch to light mode"
+      >
+        ☼
+      </button>
+
+      <a
+        class="button button-primary button-small header-cta"
+        href="#contact"
+      >
+        Let's Talk ↗
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="mobileNavigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- 00 / HERO -->
+    <section class="hero section-shell" id="home">
+
+      <div class="hero-copy">
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          AVAILABLE FOR OPPORTUNITIES
+          <span class="eyebrow-line"></span>
+        </div>
+
+        <p class="hero-kicker">HELLO, I'M</p>
+
+        <h1>
+          Abderrahmane<br />
+          <span class="gradient-text">Guezei.</span>
+        </h1>
+
+        <div class="hero-role">
+          <span id="roleText">Full-Stack Developer</span>
+          <span class="role-cursor">|</span>
+        </div>
+
+        <p class="hero-description">
+          I build modern web applications, scalable backend systems and
+          practical digital solutions using JavaScript technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#projects">
+            Explore My Work <span>↗</span>
+          </a>
+
+          <a class="button button-outline" href="#contact">
+            Contact Me
+          </a>
+        </div>
+
+        <div class="hero-meta">
+
+          <div>
+            <span class="meta-number">JavaScript</span>
+            <span class="meta-label">MAIN ECOSYSTEM</span>
+          </div>
+
+          <div>
+            <span class="meta-number">Full-Stack</span>
+            <span class="meta-label">DEVELOPMENT</span>
+          </div>
+
+          <div>
+            <span class="meta-number">Algeria</span>
+            <span class="meta-label">BASED IN</span>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- HERO VISUAL -->
+      <div class="hero-visual" aria-hidden="true">
+
+        <div class="visual-grid"></div>
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="glow-core">
+          <div class="core-inner">
+            <span class="core-bracket">{ }</span>
+            <span class="core-caption">
+              BUILD<br />
+              CREATE<br />
+              INNOVATE
+            </span>
+          </div>
+        </div>
+
+        <div class="float-card code-card">
+
+          <div class="card-top">
+            <i></i>
+            <i></i>
+            <i></i>
+            <span>developer.js</span>
+          </div>
+
+          <div class="code-lines">
+            <p><b>const</b> developer = {</p>
+            <p class="indent">name: <em>"Abderrahmane"</em>,</p>
+            <p class="indent">role: <strong>"Full-Stack"</strong>,</p>
+            <p class="indent">passion: <em>"Building"</em></p>
+            <p>};</p>
+          </div>
+
+        </div>
+
+        <div class="float-card tech-card">
+          <span class="tech-icon">⌘</span>
+          <div>
+            <b>JavaScript Stack</b>
+            <small>React · Node.js · MongoDB</small>
+          </div>
+        </div>
+
+        <div class="float-card api-card">
+          <span class="api-symbol">⚡</span>
+          <div>
+            <b>REST API</b>
+            <small>Build · Connect · Deploy</small>
+          </div>
+        </div>
+
+        <div class="visual-label">
+          <span></span>
+          DIGITAL CRAFTSMANSHIP
+        </div>
+
+        <div class="visual-number">
+          01 <span>/ 06</span>
+        </div>
+
+      </div>
+
+
+      <!-- SCROLL INDICATOR -->
+      <a
+        class="scroll-cue"
+        href="#about"
+        aria-label="Scroll down to explore"
+      >
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+
+        <span class="scroll-cue-text">SCROLL TO EXPLORE</span>
+        <span class="scroll-cue-line"></span>
+      </a>
+
+    </section>
+
+
+    <!-- 01 / ABOUT -->
+    <section class="section section-shell" id="about">
+
+      <div class="section-heading">
+        <span class="section-index">01 / ABOUT ME</span>
+
+        <h2>
+          Turning ideas into<br />
+          <span class="muted-heading">digital experiences.</span>
+        </h2>
+      </div>
+
+      <div class="about-bento-grid">
+
+        <!-- ABOUT DESCRIPTION -->
+        <article class="about-bento-card about-main-card">
+
+          <div class="bento-glow"></div>
+
+          <div class="about-tag">
+            <span class="status-dot"></span>
+            SOFTWARE CRAFTSMAN
+          </div>
+
+          <p class="lead-text">
+            I'm a Full-Stack Developer focused on building useful, reliable
+            and user-friendly applications.
+          </p>
+
+          <p>
+            I work mainly with JavaScript technologies, including React,
+            Node.js, Express and MongoDB. I enjoy turning real-world problems
+            into practical software solutions, from frontend interfaces to
+            backend APIs and databases.
+          </p>
+
+          <p>
+            I hold a Licence degree in Web Development and Photography from
+            Université de Boumerdes. I continue improving my skills through
+            personal projects and hands-on learning.
+          </p>
+
+          <a
+            class="text-link github-link-btn"
+            href="https://github.com/abdou12212212"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Explore my GitHub</span>
+            <span>↗</span>
+          </a>
+
+        </article>
+
+
+        <!-- ABOUT PROFILE -->
+        <article class="about-bento-card about-stats-card">
+
+          <div class="bento-glow"></div>
+
+          <div class="about-photo-wrap">
+
+            <div class="photo-frame">
+              <span class="photo-initials">AG</span>
+
+              <img
+                src="assets/avatar.png"
+                alt="Portrait of Abderrahmane Guezei"
+                loading="lazy"
+                onerror="this.style.display='none'"
+              />
+            </div>
+
+            <span class="photo-caption">
+              ABDERRAHMANE GUEZEI
+            </span>
+
+          </div>
+
+          <div class="about-pillars">
+
+            <div class="pillar-item">
+              <span class="pillar-num">01</span>
+              <div>
+                <strong>Full-Stack Architecture</strong>
+                <small>Frontend & Backend development</small>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <span class="pillar-num">02</span>
+              <div>
+                <strong>Real-World Solutions</strong>
+                <small>Practical application development</small>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <span class="pillar-num">03</span>
+              <div>
+                <strong>Continuous Growth</strong>
+                <small>Evolving stack & best practices</small>
+              </div>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- 02 / INTERACTIVE PLAYGROUND -->
+    <section class="section section-shell chaos-section" id="lab">
+
+      <div class="section-heading">
+        <span class="section-index">02 / INTERACTIVE PLAYGROUND</span>
+
+        <h2>
+          Catch & organize<br />
+          <span class="muted-heading">the stack.</span>
+        </h2>
+      </div>
+
+      <div class="game-wrapper">
+
+        <div class="game-hud">
+
+          <div class="game-status">
+            <span class="game-badge">🎮 MINI-GAME</span>
+
+            <span id="gamePrompt">
+              Hover or drag the floating modules to align them!
+            </span>
+          </div>
+
+          <div class="game-controls">
+
+            <span class="game-score">
+              Aligned: <strong id="alignedCount">0</strong>/5
+            </span>
+
+            <button
+              type="button"
+              class="button button-outline button-small"
+              id="shuffleGameBtn"
+            >
+              ↻ Scatter Again
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="chaos-container" id="chaosContainer">
+
+          <div class="chaos-card" data-index="0">
+            <span class="card-pin">●</span>
+            <span class="chaos-tag">Bootstrap</span>
+            <p>UI Framework</p>
+          </div>
+
+          <div class="chaos-card" data-index="1">
+            <span class="card-pin">●</span>
+            <span class="chaos-tag">Git</span>
+            <p>Version Control</p>
+          </div>
+
+          <div class="chaos-card" data-index="2">
+            <span class="card-pin">●</span>
+            <span class="chaos-tag">GitHub</span>
+            <p>Code Hosting</p>
+          </div>
+
+          <div class="chaos-card" data-index="3">
+            <span class="card-pin">●</span>
+            <span class="chaos-tag">Vercel</span>
+            <p>Frontend Cloud</p>
+          </div>
+
+          <div class="chaos-card" data-index="4">
+            <span class="card-pin">●</span>
+            <span class="chaos-tag">Render</span>
+            <p>Backend Cloud</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- 03 / SKILLS -->
+    <section class="section section-shell" id="skills">
+
+      <div class="section-heading">
+        <span class="section-index">03 / MY TOOLKIT</span>
+
+        <h2>
+          Technologies I<br />
+          <span class="muted-heading">work with.</span>
+        </h2>
+      </div>
+
+      <div class="bento-skills-grid">
+
+        <!-- FRONTEND -->
+        <article class="bento-skill-card span-col-2">
+
+          <div class="bento-glow"></div>
+
+          <div class="bento-top">
+            <span class="bento-icon">◈</span>
+            <span class="bento-index">01 / FRONTEND</span>
+          </div>
+
+          <h3>Frontend Development</h3>
+
+          <p>
+            Building responsive, accessible interfaces and seamless,
+            high-performance user experiences.
+          </p>
+
+          <div class="bento-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript (ES6+)</span>
+            <span>React.js</span>
+            <span>Tailwind CSS</span>
+          </div>
+
+        </article>
+
+
+        <!-- BACKEND -->
+        <article class="bento-skill-card">
+
+          <div class="bento-glow"></div>
+
+          <div class="bento-top">
+            <span class="bento-icon">⌘</span>
+            <span class="bento-index">02 / BACKEND</span>
+          </div>
+
+          <h3>Backend Systems</h3>
+
+          <p>
+            Creating robust APIs, secure authentication systems, and
+            server-side logic.
+          </p>
+
+          <div class="bento-tags">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>REST APIs</span>
+            <span>JWT</span>
+          </div>
+
+        </article>
+
+
+        <!-- DATABASES -->
+        <article class="bento-skill-card">
+
+          <div class="bento-glow"></div>
+
+          <div class="bento-top">
+            <span class="bento-icon">▤</span>
+            <span class="bento-index">03 / STORAGE</span>
+          </div>
+
+          <h3>Databases</h3>
+
+          <p>
+            Designing structured and document-based data persistence layers.
+          </p>
+
+          <div class="bento-tags">
+            <span>MongoDB</span>
+            <span>Mongoose</span>
+            <span>MySQL</span>
+            <span>SQLite</span>
+          </div>
+
+        </article>
+
+
+        <!-- TOOLS -->
+        <article class="bento-skill-card span-col-2">
+
+          <div class="bento-glow"></div>
+
+          <div class="bento-top">
+            <span class="bento-icon">⚙</span>
+            <span class="bento-index">04 / ECOSYSTEM</span>
+          </div>
+
+          <h3>Tools & Cross-Platform</h3>
+
+          <p>
+            Leveraging modern version control, testing tools, and
+            desktop/mobile frameworks.
+          </p>
+
+          <div class="bento-tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Postman</span>
+            <span>Electron.js</span>
+            <span>Flutter</span>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- 04 / PROJECTS -->
+    <section class="section section-shell projects-section" id="projects">
+
+      <div class="section-heading projects-heading">
+
+        <div>
+          <span class="section-index">04 / SELECTED WORK</span>
+
+          <h2>
+            Projects &<br />
+            <span class="muted-heading">experiments.</span>
+          </h2>
+        </div>
+
+        <p>
+          A selection of applications and systems I've built or am currently
+          developing.
+        </p>
+
+      </div>
+
+
+      <!-- INTERACTIVE ARCHITECTURE DEMO -->
+      <div class="demo-showcase" id="demoShowcase">
+
+        <div class="demo-info">
+
+          <div class="demo-top-meta">
+
+            <span class="demo-badge">
+              <span class="live-dot"></span>
+              INTERACTIVE ARCHITECTURE
+            </span>
+
+            <span class="demo-latency" id="demoLatency">
+              Latency: 24ms
+            </span>
+
+          </div>
+
+          <h3>Turning Scattered Chaos into Structured Workflows</h3>
+
+          <p>
+            Drag & drop the chaotic client messages into the smartphone core,
+            or click them to watch the API parse and structure data in real
+            time.
+          </p>
+
+          <div class="demo-steps">
+
+            <div class="demo-step active" id="step-1">
+
+              <span class="step-num">01</span>
+
+              <div>
+                <strong>
+                  Raw Client Inputs
+                  (<span id="pendingCount">3</span> Unparsed)
+                </strong>
+
+                <small>
+                  Drag cards into the phone or click to ingest
+                </small>
+              </div>
+
+            </div>
+
+
+            <div class="demo-step" id="step-2">
+
+              <span class="step-num">02</span>
+
+              <div>
+                <strong>
+                  API Validation & Sync
+                  (<span id="syncedCount">0</span>/3)
+                </strong>
+
+                <small>
+                  Automated parsing & database mapping
+                </small>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="demo-controls">
+
+            <button
+              type="button"
+              class="button button-primary button-small"
+              id="demoActionBtn"
+            >
+              <span id="demoActionIcon">⚡</span>
+              <span id="demoActionText">Auto-Ingest All</span>
+            </button>
+
+            <div class="demo-progress-wrap">
+              <div class="demo-progress-bar" id="demoProgressBar"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- DEMO STAGE -->
+        <div class="demo-stage" id="demoStage">
+
+          <div class="demo-grid-bg"></div>
+          <div class="demo-ambient-orb"></div>
+
+          <div class="demo-device-group">
+
+            <!-- SMARTPHONE DROP ZONE -->
+            <div class="demo-phone" id="demoPhone">
+
+              <div class="demo-dynamic-island">
+                <span class="island-cam"></span>
+                <span class="island-status" id="islandStatus">READY</span>
+              </div>
+
+              <div class="demo-scanner" id="demoScanner"></div>
+
+              <div class="demo-screen" id="demoScreen">
+
+                <div class="screen-idle" id="screenIdle">
+
+                  <div class="radar-ring">
+                    <div class="demo-screen-icon">⬇</div>
+                  </div>
+
+                  <strong>Drop Payloads Here</strong>
+                  <small>Drag cards onto screen</small>
+
+                </div>
+
+
+                <div class="dash-ui" id="dashUi" style="display: none;">
+
+                  <div class="dash-header">
+                    <span>Live Orders</span>
+                    <span class="dash-badge">● SYNCED</span>
+                  </div>
+
+                  <div class="dash-kpi">
+                    <small>Validated Revenue</small>
+                    <strong id="dashRevenue">0.00 DA</strong>
+                  </div>
+
+                  <div class="dash-rows" id="dashRows"></div>
+
+                </div>
+
+              </div>
+            </div>
+
+
+            <!-- DRAGGABLE CLIENT CARDS -->
+            <div class="demo-cards" id="demoCards">
+
+              <div
+                class="demo-card card-1"
+                data-id="1"
+                data-user="User 01"
+                data-result="App Ready ✓"
+                data-amount="0"
+              >
+
+                <div class="demo-card-head">
+                  <div class="user-tag">
+                    <span class="u-avatar">U1</span>
+                    User 01
+                  </div>
+
+                  <small class="drag-hint">⠿ Drag</small>
+                </div>
+
+                <p>
+                  "Il faut une appli pour gérer mes commandes ??"
+                </p>
+
+              </div>
+
+
+              <div
+                class="demo-card card-2"
+                data-id="2"
+                data-user="User 02"
+                data-result="48,000 DA ✓"
+                data-amount="48000"
+              >
+
+                <div class="demo-card-head">
+                  <div class="user-tag">
+                    <span class="u-avatar u2">U2</span>
+                    User 02
+                  </div>
+
+                  <small class="drag-hint">⠿ Drag</small>
+                </div>
+
+                <p>
+                  "Vous avez reçu mon acompte de 48,000 DA ?"
+                </p>
+
+              </div>
+
+
+              <div
+                class="demo-card card-3"
+                data-id="3"
+                data-user="User 03"
+                data-result="Fixed CSV ✓"
+                data-amount="12500"
+              >
+
+                <div class="demo-card-head">
+                  <div class="user-tag">
+                    <span class="u-avatar u3">U3</span>
+                    User 03
+                  </div>
+
+                  <span class="error-pill">CSV ERROR</span>
+                </div>
+
+                <div class="demo-formula">
+                  <del>#VALEUR!</del>
+                  ➔
+                  <span>12,500 DA</span>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PROJECT FILTERS -->
+      <div class="project-filters" role="group" aria-label="Filter projects">
+
+        <button
+          class="filter-button active"
+          type="button"
+          data-filter="all"
+          aria-pressed="true"
+        >
+          All <span>05</span>
+        </button>
+
+        <button
+          class="filter-button"
+          type="button"
+          data-filter="web"
+          aria-pressed="false"
+        >
+          Web
+        </button>
+
+        <button
+          class="filter-button"
+          type="button"
+          data-filter="desktop"
+          aria-pressed="false"
+        >
+          Desktop
+        </button>
+
+        <button
+          class="filter-button"
+          type="button"
+          data-filter="mobile"
+          aria-pressed="false"
+        >
+          Mobile
+        </button>
+
+      </div>
+
+      <div class="project-grid" id="projectList"></div>
+
+    </section>
+
+
+    <!-- 05 / JOURNEY -->
+    <section class="section section-shell" id="journey">
+
+      <div class="section-heading">
+
+        <span class="section-index">05 / MY JOURNEY</span>
+
+        <h2>
+          Learning, building<br />
+          <span class="muted-heading">&amp; growing.</span>
+        </h2>
+
+      </div>
+
+
+      <div class="roadmap-container">
+
+        <div class="roadmap-line"></div>
+
+
+        <article class="roadmap-item">
+
+          <div class="roadmap-marker">
+            <span>01</span>
+          </div>
+
+          <div class="roadmap-content">
+
+            <div class="roadmap-meta">
+              <span class="journey-icon">🎓</span>
+              <span class="journey-date">2023 — 2026</span>
+              <span class="journey-tag">Licence Degree</span>
+            </div>
+
+            <h3>University Education</h3>
+
+            <p>
+              Studied Web Development and Photography at Université de
+              Boumerdes, building a strong academic foundation.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="roadmap-item">
+
+          <div class="roadmap-marker">
+            <span>02</span>
+          </div>
+
+          <div class="roadmap-content">
+
+            <div class="roadmap-meta">
+              <span class="journey-icon">💻</span>
+              <span class="journey-date">PRACTICAL EXPERIENCE</span>
+              <span class="journey-tag">Project Based Learning</span>
+            </div>
+
+            <h3>Building Applications</h3>
+
+            <p>
+              Developed full-stack web applications, backend architectures,
+              and desktop projects while gaining practical software
+              development experience.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="roadmap-item">
+
+          <div class="roadmap-marker active-marker">
+            <span>03</span>
+          </div>
+
+          <div class="roadmap-content active-content">
+
+            <div class="roadmap-meta">
+              <span class="journey-icon">🚀</span>
+              <span class="journey-date">CURRENTLY</span>
+              <span class="journey-tag">Continuous Learning</span>
+            </div>
+
+            <h3>Growing as a Developer</h3>
+
+            <p>
+              Exploring modern JavaScript ecosystems, cross-platform mobile
+              apps, and scalable system architecture.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- 06 / CONTACT -->
+    <section class="section section-shell contact-section" id="contact">
+
+      <div class="contact-wrapper">
+
+        <!-- CONTACT INFORMATION -->
+        <div class="contact-info">
+
+          <span class="section-index">06 / GET IN TOUCH</span>
+
+          <h2>
+            Have a project<br />
+            in <span>mind?</span>
+          </h2>
+
+          <p>
+            I'm open to opportunities, collaborations and interesting
+            projects. Let's discuss what we can build together.
+          </p>
+
+
+          <a
+            class="contact-email"
+            href="mailto:abderrahmane475@gmail.com"
+          >
+
+            <span class="contact-email-icon">✉</span>
+
+            <span>
+              <small>EMAIL ME AT</small>
+              <strong>abderrahmane475@gmail.com</strong>
+            </span>
+
+            <span class="contact-arrow">↗</span>
+
+          </a>
+
+
+          <div class="contact-availability">
+            <span class="availability-dot"></span>
+            Open to opportunities and collaborations
+          </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+        <form
+          class="contact-form"
+          id="contactForm"
+          action="https://formspree.io/f/xanozyew"
+          method="POST"
+        >
+
+          <div class="form-heading">
+            <span>LET'S TALK</span>
+            <h3>Send me a message</h3>
+            <p>I'll get back to you as soon as possible.</p>
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+              <label for="contactName">Your name</label>
+
+              <input
+                id="contactName"
+                name="name"
+                type="text"
+                placeholder="John Doe"
+                autocomplete="name"
+                required
+              />
+            </div>
+
+
+            <div class="form-group">
+              <label for="contactEmail">Your email</label>
+
+              <input
+                id="contactEmail"
+                name="email"
+                type="email"
+                placeholder="john@example.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+
+            <input
+              id="contactSubject"
+              name="subject"
+              type="text"
+              placeholder="Project inquiry"
+              required
+            />
+          </div>
+
+
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+
+            <textarea
+              id="contactMessage"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+          </div>
+
+
+          <button
+            class="contact-submit"
+            type="submit"
+            id="submitBtn"
+          >
+            <span>Send Message</span>
+            <span class="submit-arrow">↗</span>
+          </button>
+
+
+          <p
+            class="form-status"
+            id="formStatus"
+            role="status"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+      </div>
+
+
+      <!-- SOCIAL LINKS -->
+      <div class="social-links">
+
+        <a
+          href="https://github.com/abdou12212212"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/abderrahmane-guezei/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+        <a href="mailto:abderrahmane475@gmail.com">
+          Email ↗
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer section-shell">
+
+    <a class="brand" href="#home">
+      <span class="brand-mark">AG</span>
+      <span>ABDO<span class="brand-dot">.</span>DEV</span>
+    </a>
+
+    <span>Designed &amp; built by Abderrahmane Guezei.</span>
+
+    <span>
+      © <span id="year"></span> All rights reserved.
+    </span>
+
+  </footer>
+
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div
+      class="modal-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        type="button"
+        aria-label="Close project details"
+      >
+        ×
+      </button>
+
+      <span class="modal-kicker" id="modalCategory">
+        PROJECT DETAILS
+      </span>
+
+      <h2 id="modalTitle">Project title</h2>
+
+      <p id="modalDescription"></p>
+
+      <div class="modal-features" id="modalFeatures"></div>
+
+      <div class="modal-tech" id="modalTech"></div>
+
+      <div class="modal-actions" id="modalActions"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- TOAST NOTIFICATION -->
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <!-- BACK TO TOP -->
+  <button
+    class="back-to-top"
+    id="backToTop"
+    type="button"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <!-- CUSTOM CURSOR -->
+  <div class="custom-cursor" id="customCursor" aria-hidden="true">
+    <div class="cursor-aura"></div>
+    <div class="cursor-ring"></div>
+    <div class="cursor-dot"></div>
+  </div>
+
+
+  <!-- FLOATING WHATSAPP -->
+  <a
+    href="https://wa.me/213655804278?text=Hello%20Abderrahmane,%20I%20want%20to%20discuss%20a%20project!"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Chat on WhatsApp"
+    aria-label="Contact Abderrahmane on WhatsApp"
+  >
+
+    <svg
+      class="whatsapp-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="28"
+      height="28"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+      />
+
+    </svg>
+
+  </a>
+
+</body>
+</html>
